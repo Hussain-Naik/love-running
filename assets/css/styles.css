@@ -28,13 +28,14 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    float: right;
 }
 
 #menu, #logo {
     line-height: 75px;
 }
 #menu li {
-    float: right;
+    display: inline-block;
     list-style-type: none;
     margin-right: 30px;
 }
